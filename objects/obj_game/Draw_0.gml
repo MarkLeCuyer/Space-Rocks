@@ -11,7 +11,7 @@ case rm_game:
 		var c = c_green;
 		draw_text_transformed_color(
 		room_width/2, 100, "SPACE ROCKS", 
-		3, 3, 0, c,c,c,c, 1
+		3, 4, 5, c,c,c,c, 1
 		);
 		
 		draw_text( 
@@ -33,7 +33,7 @@ SPACE: shoot
 		var c = c_lime;
 		draw_text_transformed_color(
 		room_width/2, 200, "YOU WON! :)", 
-		3, 3, 0, c,c,c,c, 1
+		3, 3, -3, c,c,c,c, 1
 		);
 		
 		draw_text( 
